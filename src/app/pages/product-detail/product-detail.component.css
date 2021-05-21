@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    border: 0;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .product-detail-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px; 
+    margin-bottom: 150px;
+  }
+  .image-product-detail {
+    width: 350px;
+    height: 500px;
+    border: 3px solid black;
+    box-shadow: 10px 10px #ffd940;
+    background: url(../../../assets/images/vestido-fashon.png) no-repeat 20%;
+    background-size: cover;
+  }
+  .details-product-detail {
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: -100px;
+  }
+  .title-product-detail {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  .subtitle-product-detail {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  .description-color-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .description-color {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  .first-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    border: 3px solid black;
+    background: #c82514;
+    margin-left: 15px;
+  }
+  .second-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    border: 3px solid black;
+    background: #419d0c;
+    margin-left: 10px;
+  }
+  .thrid-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    border: 3px solid black;
+    background: #f5d34b;
+    margin-left: 10px;
+  }
+  .box-sizes {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+  .description-size {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 10px;
+  }
+  .description-size-input {
+    width: 70px;
+    height: 30px;
+    background: white;
+    border: 3px solid black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 8px;
+  }
+  .description-price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  .adding-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .signals-products {
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 45%;
+    border: 3.5px solid black;
+    background: none;
+    box-shadow: 3px 3px #ffd940;
+    cursor: pointer;
+  }
+  .signals-products:hover {
+    background: black;
+    color: white;
+  }
+  .number-products-input {
+    width: 90px;
+    height: 30px;
+    margin-left: -75px;
+    margin-right: -75px;
+    border: 3px solid black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  }
+  .button-product {
+    width: 200px;
+    height: 50px;
+    border: 3.5px solid black;
+    background: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 20px;
+    box-shadow: 5px 10px #ffd940;
+  }
+  .button-product:hover {
+    background: black;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .product-detail-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .details-product-detail {
+      width: 300px;
+      height: 400px;
+      margin-top: 50px;
+      margin-left: 60px;
+    }
+    .title-product-detail {
+      font-size: 20px;
+    }
+    .subtitle-product-detail {
+      font-size: 18px;
+      padding-top: 10px;
+    }
+    .description-color {
+      font-size: 18px;
+      padding-top: 10px;
+    }
+    .description-size {
+      font-size: 18px;
+      padding-top: 5px;
+      padding-right: 10px;
+    }
+    .description-price {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+    }
+    .adding-products {
+      padding-top: 20px;
+    }
+    .description-size-input {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+    }
+    .number-products-input {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
