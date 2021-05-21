@@ -114,17 +114,18 @@
   margin-left: -140px;
 }
 .for-day {
-  background-color: black;
+  background: url(../../../assets/images/pasear-perrito.png) center no-repeat;
   height: 300px;
   margin-top: 55px;
+  background-size: cover;
 }
 .for-date {
-  background-color: yellow;
+  background: url(../../../assets/images/para-date.png) center no-repeat;
   height: 300px;
   margin-top: 55px;
 }
 .for-cofee {
-  background-color: black;
+  background: url(../../../assets/images/para-cafe.png) center no-repeat;
   height: 300px;
   margin-top: 55px;
 }
