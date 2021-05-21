@@ -1,1 +1,12 @@
-<p>category works!</p>
+<app-menu></app-menu>
+<div class="card-container">
+  <div class="container row d-flex flex-wrap">
+      <div class="category-card col-md-4 col-sm-6"  *ngFor="let categoria of categoria | async">
+        <img src="{{categoria.img}}" class="card-img" alt="...">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+</div>
+<app-footer></app-footer>
+

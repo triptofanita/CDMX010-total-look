@@ -1,14 +1,10 @@
-
-<div>products</div>
-    <div class="grd-row-col-4">
-      <div class="products_container">
-        <div class="media" *ngFor="let producto of producto | async">
-          {{producto.name}}
-          {{producto.color}}
-          </div>
-          <div class="media-body">
-
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="container row d-flex flex-wrap">
+    <div class="card" style="width: 10rem;" *ngFor="let producto of producto | async">
+  <img src="{{producto.img}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{producto.name}}</h5>
+    <p class="card-text">{{producto.description}}</p>
+    <p class="card-text">$ {{producto.price}}</p>
+  </div>
+</div>
+</div>
