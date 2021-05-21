@@ -1,0 +1,14 @@
+.menuButton {
+    width: 120px;
+    height: 80px;
+
+    background: black;
+}
+.banner-sales{
+    background: url(../../../assets/images/image-sales-home.png);
+    min-height: 200px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
