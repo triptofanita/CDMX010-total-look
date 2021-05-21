@@ -4,11 +4,221 @@
 
     background: black;
 }
+
 .banner-sales{
     background: url(../../../assets/images/image-sales-home.png);
-    min-height: 200px;
+    min-height: 500px;
     background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.buttons-menu-space {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.button-menu {
+  width: 200px;
+  height: 50px;
+  border: 3.5px solid black;
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  margin: 12px;
+  box-shadow: 5px 10px #ffd940;
+}
+.button-menu:hover {
+  background: black;
+  color: white;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  background: url(../../../assets/images/image-sales-home.png) no-repeat center;
+  background-size: 100%;
+  margin-top: 40px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subtitle {
+  margin-left: 55%;
+  padding-top: 35px;
+}
+.hot-sale {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  
+}
+.hot-sale-line-one {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: -5px;
+}
+.hot-sale-line-two {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: -15px;
+}
+.sale-products{
+  min-height: 500px;
+}
+.motto{
+  margin-top: 100px;
+}
+.sale-products {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -40px;
+}
+.male-products {
+  width: 300px;
+  height: 450px;
+  background: url(../../../assets/images/male-01-sale.png) no-repeat;
+  background-size: 100%;
+}
+.for-him {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -140px;
+}
+.female-products {
+  width: 300px;
+  height: 450px;
+  background: url(../../../assets/images/female-01-sale.png) no-repeat;
+  background-size: 100%;
+  margin-top: 230px;
+}
+.for-her {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: -140px;
+}
+.for-day {
+  background-color: black;
+  height: 300px;
+  margin-top: 55px;
+}
+.for-date {
+  background-color: yellow;
+  height: 300px;
+  margin-top: 55px;
+}
+.for-cofee {
+  background-color: black;
+  height: 300px;
+  margin-top: 55px;
+}
+.eco-mission{
+  height: 200px;
+  border-right: 1px solid #000;
+}
+.eco-mission i {
+  font-size: 3em;
+}
+@media (max-width: 768px) {
+  /* SECTION 03 */
+  .title {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .buttons-menu-space {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .button-menu {
+    width: 170px;
+    height: 40px;
+    border: 3.5px solid black;
+    background: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    text-align: center;
+    margin: 12px;
+    box-shadow: 5px 10px #ffd940;
+  }
+  .button-menu:hover {
+    background: black;
+    color: white;
+  }
+  /* SECTION 02 */
+  .banner {
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    margin-top: -50px;
+  }
+  .subtitle {
+    margin-left: 55%;
+    padding-top: 100px;
+  }
+  .hot-sale {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .hot-sale-line-one {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: -5px;
+  }
+  .hot-sale-line-two {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -15px;
+  }
+  /*  SECTION 03*/
+  .sale-products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -50px;
+  }
+  .female-products {
+    width: 300px;
+    height: 450px;
+    background-size: 100%;
+    margin-top: 40px;
+  }
+  .for-her {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto 0;
+    margin-top: 15px;
+  }
+  .for-him {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto 0;
+    margin-top: 15px;
+  }
 }
