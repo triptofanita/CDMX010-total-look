@@ -1,0 +1,15 @@
+
+<div>products</div>
+    <div class="grd-row-col-4">
+      <div class="products_container">
+        <div class="media" *ngFor="let producto of producto | async">
+          {{producto.name}}
+          <div class="media-figure">
+
+          </div>
+          <div class="media-body">
+
+          </div>
+        </div>
+      </div>
+    </div>
