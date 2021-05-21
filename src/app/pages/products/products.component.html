@@ -1,0 +1,9 @@
+<div class="container">
+<div class=" row d-flex flex-wrap">
+  <div class="card-product col-md-4 col-sm-12" *ngFor="let producto of producto | async">
+    <img src="{{producto.img}}" alt="">
+    <h2>{{producto.name}}</h2>
+    <p>{{producto.description}}</p>
+  </div>
+</div>
+</div>
