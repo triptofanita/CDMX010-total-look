@@ -10,11 +10,17 @@ import { Observable } from 'rxjs';
 })
 export class ProductsComponent {
 
-  producto: Observable <any[]>;
+  productos: any[] = [];
   constructor(db: AngularFirestore) {
-    this.producto=db.collection('producto').valueChanges();
+    db.collection('producto').snapshotChanges().subscribe(productos => {
+      //this.productos = productos[0].payload.doc.data();
+      console.log(productos[0].payload.doc.data());
+      this.productos = productos.map(producto => producto.payload.doc.data());
+      console.log(this.filtrarPrecio (500))
+    });
   }
 
-
-
+  filtrarPrecio(precio: number) {
+    return this.productos.filter(item => item.price >= precio)
+  }
 }
